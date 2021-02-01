@@ -1,0 +1,39 @@
+
+
+@media (min-width: 850px) {
+
+    .biowrapper {
+      width: 80%;
+      max-width: 1000px;
+      margin: 0 auto;  
+      padding: 5em 3em 1em 3em;
+      border-radius: .25rem;
+    
+    } 
+    
+    .sliderwrapper {
+      width: 80%;
+      max-width: 1000px;
+      margin: 0 auto;  
+      padding: 1em 3em 5em 3em;
+      border-radius: .25rem;
+    
+    } 
+    
+    }
+    
+    @media (max-width: 850px) {
+    
+    .sliderwrapper, .biowrapper {
+      width: 70%;
+      margin: 0 auto;
+      padding: 2em;
+      border-radius: .25rem;
+    
+    }
+    
+    }
+    
+    
+    
+    
