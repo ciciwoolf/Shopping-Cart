@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+.wrapper {
+  padding: 2rem 0;
+  background-color: #20063B;
+  list-style: none;
+
+}
+
+.copyright {
+  color: #FFB60A;
+  margin-top: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+ 
+
+
+@media (max-width: 850px) {
+
+.copyright {
+  margin-top: 1em;
+  
+}
+
+}

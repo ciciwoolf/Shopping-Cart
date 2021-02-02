@@ -1,3 +1,16 @@
+
+export const MenuData = [
+    { id: 1, label: "Products", anchor: "/products" },
+    { id: 2, label: "Works", anchor: "/works" },
+    { id: 3, label: "Buy", anchor: "/buy" },
+    { id: 5, label: "Events", anchor: "/events" },
+    { id: 6, label: "Contact", anchor: "/contact" },
+  ];
+
+
+
+
+
 {
     
     "products": [
