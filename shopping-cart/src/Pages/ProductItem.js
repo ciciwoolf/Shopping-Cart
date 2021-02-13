@@ -5,6 +5,8 @@ import { SolidButton } from "../components/buttons/solidButton";
 //props are: id key img title date content anchor
 export const ProductItem = (props) => {
 
+  //handleClick function goes here?
+
      return (
       <li className={styles.cardBody}>
         <div>
@@ -32,5 +34,7 @@ export const ProductItem = (props) => {
   }
 
   /*
-  <SolidButton handleClick={()=> {StoresListPopup(props.id)}} label="buy now"  className={styles.buyButton} />   
+  <SolidButton handleClick={()=> {----function here (props.id)}} label="buy now"  className={styles.buyButton} />   
+  Use filter method here to filter data by id? 
+  
   */
