@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import styles from "./content.module.css";
+//import styles from "./content.module.css";
 import { Products, ProductDetail, Cart, Confirmation} from "../../Pages";
 
 
@@ -10,7 +10,7 @@ export const Content = () => {
   return (
     <section className="appBody">
       <Switch>
-        <Route exact path="/products">
+        <Route exact path="/">
          <Products/>            
         </Route>
         <Route exact path="/productdetail">
