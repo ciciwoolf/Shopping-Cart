@@ -1,2 +1,2 @@
-import { SolidButton } from "./solidButton";
-export { SolidButton };
+import { SolidButton, SolidLink } from "./solidButton";
+export { SolidButton, SolidLink };

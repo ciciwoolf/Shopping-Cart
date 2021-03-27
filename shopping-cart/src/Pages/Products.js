@@ -1,9 +1,7 @@
 import React from "react";
-import {ProductItem} from "./ProductItem"
+import {ProductItem} from "../components/productItem/productItem"
 import styles from "./products.module.css"
 import { ProductsData } from "../data/data"
-
-
 
 export const Products = () => {
 

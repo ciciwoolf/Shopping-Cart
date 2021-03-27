@@ -1,7 +1,9 @@
+
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 //import styles from "./content.module.css";
-import { Products, Cart, Confirmation} from "../../Pages";
+import { Slider} from "../carousel/Carousel";
+import { Products, Cart, ProductDetail, Confirmation} from "../../Pages";
 
 
 //Pages: 1. Products  2. Product Detail  3. Shopping Cart  4. Confirmation of Purchase
@@ -11,14 +13,14 @@ export const Content = () => {
     <section className="appBody">
       <Switch>
         <Route exact path="/">
-         <Products/>            
-        </Route>
+         <Slider/> 
+         <Products/>   
+         </Route>   
+         <Route exact path="/productdetail/:id" component={ProductDetail} />
         <Route exact path="/cart">
-          <Cart/>
+          <Cart />
         </Route>
-        <Route exact path="/confirmation">
-          <Confirmation/>
-        </Route>      
+        <Route exact path="/confirmation" component={Confirmation} />     
       </Switch>
     </section>
   );
