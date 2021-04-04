@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import {useState} from "react";
+import styles from "./carousel.module.css";
 
 export function Slider() {
         const [index, setIndex] = useState(0);    
@@ -9,15 +10,17 @@ export function Slider() {
         };
     
         return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-            <Carousel.Item>
+        <Carousel activeIndex={index} onSelect={handleSelect} className={styles.carousel}>
+            <Carousel.Item >
             <img
                 className="d-block w-100"
                 src="https://img-cicis-chocolates.s3.us-east-2.amazonaws.com/car.png"
-                alt="First slide"
+                alt="Mafci"
+                className={styles.img}
             />
             <Carousel.Caption>
-                <h3>Chocolate</h3>
+                <h1 className={styles.header}>Chocolate</h1>
+                <p></p>
             
             </Carousel.Caption>
             </Carousel.Item>
@@ -25,11 +28,12 @@ export function Slider() {
             <img
                 className="d-block w-100"
                 src="https://img-cicis-chocolates.s3.us-east-2.amazonaws.com/car2.png"
-                alt="Second slide"
+                alt="Mafci"
+                className={styles.img}
             />
     
             <Carousel.Caption>
-                <h3>que</h3>
+                <h1 className={styles.header}>que</h1>
             
             </Carousel.Caption>
             </Carousel.Item>
@@ -37,11 +41,12 @@ export function Slider() {
             <img
                 className="d-block w-100"
                 src="https://img-cicis-chocolates.s3.us-east-2.amazonaws.com/car3.png"
-                alt="Third slide"
+                alt="Mafci"
+                className={styles.img}
             />
     
             <Carousel.Caption>
-                <h3>te lleva</h3>
+                <h1 className={styles.header3}>te lleva</h1>
             
             </Carousel.Caption>
             </Carousel.Item>

@@ -6,15 +6,15 @@
   font-family: "Lato", Helvetica, sans-serif;
 }
 
-.wrapper {  
-    width: 75%;
-    max-width: 1000px;
-    margin: auto;
-    padding-top: 2rem;
+.products__wrapper { 
+  margin: auto 0;
+  /* padding: 0 3rem 0 3rem; */
+}
 
+.wrapper {  
+  display: flex;
+  flex-wrap: wrap;
+    
+    
   }
-  .products__wrapper {
-    padding-bottom: 2rem;
-    background-color: #ffffff;
-  }
-  
+ 

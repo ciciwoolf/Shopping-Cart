@@ -23,11 +23,8 @@ console.log(props)
                 <span className={styles.button__wrapper}>
                 <SolidLink to={`/productdetail/${props.id}`} id={props.id} label={"Aprenda mas"}/>              
               </span>
-              </h2>
-                 
-            </div>
-              
-            
+              </h2>                 
+            </div>         
           </div>
         </li>     
       );

@@ -1,18 +1,14 @@
 import React from "react";
 import styles from "./header.module.css";
-import Image1 from "./logo.png";
-
-
 
 export const Header = () => {
   // functional component dont have THIS , because it is not a class but fuinction !!!
   return (
-    <header className={styles.header}>
-      <div className={styles.header__wrapper}>
+    <header className={styles.header_wrapper}>
+      <div className={styles.header}>
       <img
               className={styles.image}
-              width="25%"
-              src={Image1}
+              src="https://img-cicis-chocolates.s3.us-east-2.amazonaws.com/logo.png"
               alt="logo"
             />     
       </div>
